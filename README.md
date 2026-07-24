@@ -1,2 +1,155 @@
-# cCommonMacros
-Macros used in most of my c programs
+<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
+<a id="readme-top"></a>
+<!-- PROJECT SHIELDS -->
+<!--
+*** I'm using markdown "reference style" links for readability.
+*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
+*** See the bottom of this document for the declaration of the reference variables
+*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
+*** I left this header up here to give credit where credit is do for this nice Read.me template.
+*** https://www.markdownguide.org/basic-syntax/#reference-style-links
+-->
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![project_license][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
+
+<!-- PROJECT LOGO -->
+<div align="center">
+<h3 align="center">cCommonMacros</h3>
+  <p align="center">
+    A interface library header file only used by my personal projects for common Macros
+    <br />
+    <a href="https://github.com/indyIOT/cCommonMacros/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
+    &middot;
+    <a href="https://github.com/indyIOT/cCommonMacros/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
+  </p>
+</div>
+
+
+
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ol>
+</details>
+
+<!-- ABOUT THE PROJECT -->
+## About The Project
+C project that is a cmake library that builds a headers only interface for common macros used by other projects. 
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+### Built With
+
+* [![CMake][CMake.js]][CMake-url]
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- GETTING STARTED -->
+## Getting Started
+
+This project may be cloned on its own or as part of a larger test product. It is a required library for all of my c projects.
+
+### Prerequisites
+
+You need a c standard tool chain with CMake installed. 
+
+
+### Installation
+
+1. Clone the repo
+   ```sh
+   git clone https://github.com/indyIOT/cCommonMacros.git
+   ```
+3. Run Make
+   ```sh
+   make
+   ```
+4. Change to the build directory and run CMake:
+   ```sh
+   cd build
+   cmake ..
+   cmake --build .
+   ```
+5. Change git remote url to avoid accidental pushes to base project
+   ```sh
+   git remote set-url origin indyIOT/cCommonMacros
+   git remote -v # confirm the changes
+   ```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- USAGE EXAMPLES -->
+## Usage
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Top contributors:
+
+<a href="https://github.com/indyIOT/cCommonMacros/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=indyIOT/cCommonMacros" alt="contrib.rocks image" />
+</a>
+
+
+
+<!-- LICENSE -->
+## License
+
+Distributed under the project_license. See `LICENSE` for more information.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- CONTACT -->
+## Contact
+
+Project Link: [https://github.com/indyIOT/cCommonMacros](https://github.com/indyIOT/cCommonMacros)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/indyIOT/cCommonMacros.svg?style=for-the-badge
+[contributors-url]: https://github.com/indyIOT/cCommonMacros/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/indyIOT/cCommonMacros.svg?style=for-the-badge
+[forks-url]: https://github.com/indyIOT/cCommonMacros/network/members
+[stars-shield]: https://img.shields.io/github/stars/indyIOT/cCommonMacros.svg?style=for-the-badge
+[stars-url]: https://github.com/indyIOT/cCommonMacros/stargazers
+[issues-shield]: https://img.shields.io/github/issues/indyIOT/cCommonMacros.svg?style=for-the-badge
+[issues-url]: https://github.com/indyIOT/cCommonMacros/issues
+[license-shield]: https://img.shields.io/github/license/indyIOT/cCommonMacros.svg?style=for-the-badge
+[license-url]: https://github.com/indyIOT/cAlgoImplementations/blob/main/LICENSE
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://www.linkedin.com/in/anthonygarza2020
+
+<!-- Shields.io badges. You can a comprehensive list with many more badges at: https://github.com/inttter/md-badges -->
+[CMake.js]: https://img.shields.io/badge/CMake-064F8C?style=for-the-badge&logo=cmake&logoColor=fff
+[CMake-url]: https://cmake.org/
