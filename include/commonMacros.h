@@ -14,16 +14,19 @@ extern "C" {
 #endif
 
 /* Macro Name as a string */
+#ifndef STR
 #define STR(x) #x
+#endif
 /* Macro value as a string */
-#define XSTR(x) STR(x) 
+#ifndef XSTR
+#define XSTR(x) STR(x)
+#endif
 /**
  * @brief Forward declearation of the debug assert spin function.
  */
 extern void cErrorDriverDebugAssertSpin( char const * const expression,
                                          char const * const fileName,
                                          unsigned int lineNumber );
-
 
 
 #ifndef TRUE
@@ -48,8 +51,8 @@ extern void cErrorDriverDebugAssertSpin( char const * const expression,
 #endif
 
 /**
- * \brief macro to give an array length.
-*/
+ * @brief Macro to give an array length.
+ */
 #ifndef ARRAY_LENGTH
 #define ARRAY_LENGTH(X)                               (sizeof(X)/sizeof((X)[0]))
 #endif
