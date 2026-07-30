@@ -4,10 +4,11 @@
  * @author Anthony Garza
  * @copyright All rights reserved 2026
 *************************************************/
+#include <stddef.h>
 #ifndef COMMON_MACROS_H
 #define COMMON_MACROS_H
 
-#include <stddef.h>
+
 
 #ifdef __cplusplus
 extern "C" {

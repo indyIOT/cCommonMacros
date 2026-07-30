@@ -48,6 +48,8 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
+    <li><a href="#change-Log">Change Log</a></li>
+    <li><a href="#top-contributors">Top Contributors</a></li>    
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
   </ol>
@@ -107,16 +109,31 @@ You need a c standard tool chain with CMake installed.
 
 <!-- USAGE EXAMPLES -->
 ## Usage
-
+1. In whatever project you wish to include them add to the CMakelists.txt a line with the proper paths that looks like so.
+```
+add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/../cCommonMacros ${CMAKE_CURRENT_BINARY_DIR}/cCommonMacros)
+```
+2. Also add it to your target libraries.
+```
+target_link_libraries(${PROJECT_NAME}
+    PUBLIC
+        cCommonMacros        
+)
+```
+3. Include commonMacros.h in your project source code.
+```
+#include "commonMacros.h"
+```
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Top contributors:
+## Change Log
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## Top contributors
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 <a href="https://github.com/indyIOT/cCommonMacros/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=indyIOT/cCommonMacros" alt="contrib.rocks image" />
 </a>
-
-
 
 <!-- LICENSE -->
 ## License
